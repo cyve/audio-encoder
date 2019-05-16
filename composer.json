@@ -1,0 +1,24 @@
+{
+    "name": "cyve/audio-encoder",
+    "description": "PHP MP3 encoder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyril Vermande",
+            "homepage": "https://www.cyrilwebdesign.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": { "Cyve\\AudioEncoder\\" : "src/" }
+    },
+    "autoload-dev" : {
+        "psr-4": { "Cyve\\AudioEncoder\\Test\\" : "tests/" }
+    }
+}
